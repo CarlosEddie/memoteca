@@ -7,4 +7,14 @@
       Add thought
     </button>
   </header>
+  <div class="mural" *ngIf="listThought.length > 0, else noThoughts">
+    <div *ngFor="let thought of listThought">
+      <app-thought [thought]="thought"></app-thought>
+    </div>
+  </div>
 </section>
+<ng-template #noThoughts>
+  <div class="ff-inter no-thoughts">
+    There are no thoughts registered yet!
+  </div>
+</ng-template>

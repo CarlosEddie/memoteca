@@ -1,0 +1,13 @@
+<div class="thought  {{ thought.model }} ff-roboto-mono" [ngClass]="thoughtLength()">
+  <img src="/assets/images/{{ thought.model }}.png" alt="colored quotes">
+  <p class="content">{{ thought.content }}</p>
+  <p class="content"><b>{{ thought.authorship }}</b></p>
+  <div class="actions">
+    <button class="button-edit">
+      <img src="/assets/images/icon-edit.png" alt="Edit Icon">
+    </button>
+    <button class="button-delete">
+      <img src="/assets/images/icon-delete.png" alt="Delete Icon">
+    </button>
+  </div>
+</div>
