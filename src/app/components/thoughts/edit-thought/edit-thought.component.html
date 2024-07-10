@@ -1,0 +1,69 @@
+<section class="container edit-thoughts ff-inter">
+  <header class="header">
+    <h2>
+      Add a <br>new thought:
+    </h2>
+  </header>
+  <form>
+    <label for="thought">Thought</label>
+    <input type="textarea" class="input" id="thought" name="thought" placeholder="Type a thought" [(ngModel)]="thought.content">
+    <label for="authorship">Authorship or source</label>
+    <input type="text" class="input" id="authorship" name="authorship" placeholder="Type the authorship or the source" [(ngModel)]="thought.authorship">
+    <label for="model">Select the card model:</label>
+    <div class="container-radio">
+      <div class="radio-model">
+        <label for="model1">
+          <input type="radio" id="model1" value="model1" name="model-card" [(ngModel)]="thought.model">
+          <div class="custom-radio">
+            <span></span>
+          </div>
+          <span>Model 1</span>
+        </label>
+        Preview:
+        <div class="model model1 ff-roboto-mono">
+          <img src="../../../../assets/images/model1.png" alt="Blue quotes">
+          <p class="content">{{ thought.content }}</p>
+          <p class="authorship"><b>{{ thought.authorship }}</b></p>
+        </div>
+      </div>
+      <div class="radio-model">
+        <label for="model2">
+          <input type="radio" id="model2" value="model2" name="model-card" [(ngModel)]="thought.model">
+          <div class="custom-radio">
+            <span></span>
+          </div>
+          <span>Model 2</span>
+        </label>
+        Preview:
+        <div class="model model2 ff-roboto-mono">
+          <img src="../../../../assets/images/model2.png" alt="Light blue quotes">
+          <p class="content">{{ thought.content }}</p>
+          <p class="authorship"><b>{{ thought.authorship }}</b></p>
+        </div>
+      </div>
+      <div class="radio-model">
+        <label for="model3">
+          <input type="radio" id="model3" value="model3" name="model-card" [(ngModel)]="thought.model">
+          <div class="custom-radio">
+            <span></span>
+          </div>
+          <span>Model 3</span>
+        </label>
+        Preview:
+        <div class="model model3 ff-roboto-mono">
+          <img src="../../../../assets/images/model3.png" alt="Green quotes">
+          <p class="content">{{ thought.content }}</p>
+          <p class="authorship"><b>{{ thought.authorship }}</b></p>
+        </div>
+      </div>
+    </div>
+    <div class="actions">
+      <button (click)="editThought()" class="button">
+        Save
+      </button>
+      <button (click)="cancel()" class="button">
+        Cancel
+      </button>
+    </div>
+  </form>
+</section>

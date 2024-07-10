@@ -3,7 +3,7 @@
   <p class="content">{{ thought.content }}</p>
   <p class="content"><b>{{ thought.authorship }}</b></p>
   <div class="actions">
-    <button class="button-edit">
+    <button class="button-edit" routerLink="/thoughts/editThought/{{thought.id}}">
       <img src="/assets/images/icon-edit.png" alt="Edit Icon">
     </button>
     <button class="button-delete" routerLink="/thoughts/deleteThought/{{thought.id}}">

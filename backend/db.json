@@ -7,12 +7,6 @@
       "model": "model1"
     },
     {
-      "id": 2,
-      "content": "Test 2",
-      "authorship": "Carlos",
-      "model": "model2"
-    },
-    {
       "id": 3,
       "content": "Test 3",
       "authorship": "Carlos",
