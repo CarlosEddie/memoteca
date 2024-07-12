@@ -4,16 +4,16 @@
       Add a <br>new thought:
     </h2>
   </header>
-  <form>
+  <form [formGroup]="form">
     <label for="thought">Thought</label>
-    <input type="textarea" class="input" id="thought" name="thought" placeholder="Type a thought" [(ngModel)]="thought.content">
+    <input type="textarea" class="input" id="thought" formControlName="content" placeholder="Type a thought">
     <label for="authorship">Authorship or source</label>
-    <input type="text" class="input" id="authorship" name="authorship" placeholder="Type the authorship or the source" [(ngModel)]="thought.authorship">
+    <input type="text" class="input" id="authorship" formControlName="authorship" placeholder="Type the authorship or the source">
     <label for="model">Select the card model:</label>
     <div class="container-radio">
       <div class="radio-model">
         <label for="model1">
-          <input type="radio" id="model1" value="model1" name="model-card" [(ngModel)]="thought.model">
+          <input type="radio" id="model1" value="model1" formControlName="model">
           <div class="custom-radio">
             <span></span>
           </div>
@@ -22,13 +22,13 @@
         Preview:
         <div class="model model1 ff-roboto-mono">
           <img src="../../../../assets/images/model1.png" alt="Blue quotes">
-          <p class="content">{{ thought.content }}</p>
-          <p class="authorship"><b>{{ thought.authorship }}</b></p>
+          <p class="content">{{ form.get('content')?.value }}</p>
+          <p class="authorship"><b>{{ form.get('authorship')?.value }}</b></p>
         </div>
       </div>
       <div class="radio-model">
         <label for="model2">
-          <input type="radio" id="model2" value="model2" name="model-card" [(ngModel)]="thought.model">
+          <input type="radio" id="model2" value="model2" formControlName="model">
           <div class="custom-radio">
             <span></span>
           </div>
@@ -37,13 +37,13 @@
         Preview:
         <div class="model model2 ff-roboto-mono">
           <img src="../../../../assets/images/model2.png" alt="Light blue quotes">
-          <p class="content">{{ thought.content }}</p>
-          <p class="authorship"><b>{{ thought.authorship }}</b></p>
+          <p class="content">{{ form.get('content')?.value }}</p>
+          <p class="authorship"><b>{{ form.get('authorship')?.value }}</b></p>
         </div>
       </div>
       <div class="radio-model">
         <label for="model3">
-          <input type="radio" id="model3" value="model3" name="model-card" [(ngModel)]="thought.model">
+          <input type="radio" id="model3" value="model3" formControlName="model">
           <div class="custom-radio">
             <span></span>
           </div>
@@ -52,8 +52,8 @@
         Preview:
         <div class="model model3 ff-roboto-mono">
           <img src="../../../../assets/images/model3.png" alt="Green quotes">
-          <p class="content">{{ thought.content }}</p>
-          <p class="authorship"><b>{{ thought.authorship }}</b></p>
+          <p class="content">{{ form.get('content')?.value }}</p>
+          <p class="authorship"><b>{{ form.get('authorship')?.value }}</b></p>
         </div>
       </div>
     </div>
