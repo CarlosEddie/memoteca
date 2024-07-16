@@ -7,8 +7,17 @@
   <form [formGroup]="form">
     <label for="thought">Thought</label>
     <input type="textarea" class="input" id="thought" formControlName="content" placeholder="Type a thought">
+    <div class="error__message" *ngIf="form.get('content')?.errors  && form.get('content')?.touched">
+      Thought is required!
+    </div>
     <label for="authorship">Authorship or source</label>
     <input type="text" class="input" id="authorship" formControlName="authorship" placeholder="Type the authorship or the source">
+    <div class="error__message" *ngIf="form.get('authorship')?.errors?.['required'] && form.get('authorship')?.touched">
+      Authorship is required!
+    </div>
+    <div class="error__message" *ngIf="form.get('authorship')?.errors?.['minlength'] && form.get('authorship')?.touched">
+      Authorship must have at least 3 characters!
+    </div>
     <label for="model">Select the card model:</label>
     <div class="container-radio">
       <div class="radio-model">
@@ -58,7 +67,7 @@
       </div>
     </div>
     <div class="actions">
-      <button (click)="createThought()" class="button">
+      <button (click)="createThought()" [disabled]="!form.valid" [ngClass]="enableButton()">
         Save
       </button>
       <button (click)="cancel()" class="button">

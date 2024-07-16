@@ -2,20 +2,8 @@
   "thoughts": [
     {
       "id": 1,
-      "content": "Test 1",
-      "authorship": "Carlos",
-      "model": "model1"
-    },
-    {
-      "id": 3,
-      "content": "Test 3",
-      "authorship": "Carlos",
-      "model": "model3"
-    },
-    {
-      "id": 4,
-      "content": "Test",
-      "authorship": "Carlos",
+      "content": "test",
+      "authorship": "test",
       "model": "model1"
     }
   ]
