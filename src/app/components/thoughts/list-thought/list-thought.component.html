@@ -13,6 +13,9 @@
     </div>
   </div>
 </section>
+<app-load-more-button [thereAreMoreThoughts]="thereAreMoreThoughts" (click)="loadMoreThoughts()">
+
+</app-load-more-button>
 <ng-template #noThoughts>
   <div class="ff-inter no-thoughts">
     There are no thoughts registered yet!
