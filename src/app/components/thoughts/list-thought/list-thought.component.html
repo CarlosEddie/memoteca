@@ -1,5 +1,9 @@
 <section class="container">
   <header class="header d-flex">
+    <div class="search-thoughts">
+      <input type="search" class="filter" placeholder="What are you looking for??" autofocus [(ngModel)]="filter" (keyup)="searchThought()">
+      <img src="/assets/images/magnifying-glass.png" alt="blue magnifying-glass">
+    </div>
     <h2 class="ff-inter">
       My Mural
     </h2>
