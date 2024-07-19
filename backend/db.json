@@ -1,51 +1,59 @@
 {
   "thoughts": [
     {
-      "content": "a",
+      "id": 1,
+      "content": "test",
       "authorship": "aaa",
       "model": "model3",
-      "id": 1
+      "favorite": true
     },
     {
       "content": "a",
       "authorship": "aaaa",
       "model": "model2",
+      "favorite": false,
       "id": 2
     },
     {
       "content": "a",
       "authorship": "aaa",
       "model": "model1",
+      "favorite": false,
       "id": 3
     },
     {
       "content": "a",
       "authorship": "aaa",
       "model": "model1",
+      "favorite": false,
       "id": 4
     },
     {
       "content": "aaaaa",
       "authorship": "aaaaa",
       "model": "model3",
+      "favorite": false,
       "id": 7
     },
     {
       "content": "aaaa",
       "authorship": "aaaa",
       "model": "model2",
+      "favorite": false,
       "id": 8
     },
     {
       "content": "a",
       "authorship": "aaaa",
       "model": "model1",
+      "favorite": false,
       "id": 9
     },
     {
       "content": "a",
       "authorship": "Carlos Eddie",
       "model": "model1",
+      "favorite": true,
       "id": 10
     }
   ]

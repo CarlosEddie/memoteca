@@ -3,6 +3,9 @@
   <p class="content">{{ thought.content }}</p>
   <p class="content"><b>{{ thought.authorship }}</b></p>
   <div class="actions">
+    <button class="button-favorite" (click)="updateFavorite()">
+      <img src="/assets/images/{{ changeFavoriteIcon() }}-favorite-icon.png" alt="{{ changeFavoriteIcon() }} favorite icon">
+    </button>
     <button class="button-edit" routerLink="/thoughts/editThought/{{thought.id}}">
       <img src="/assets/images/icon-edit.png" alt="Edit Icon">
     </button>

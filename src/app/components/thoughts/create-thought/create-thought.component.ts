@@ -23,7 +23,8 @@ export class CreateThoughtComponent implements OnInit {
     this.form = this.formBuilder.group({
       content: ['', Validators.compose([Validators.required, Validators.pattern(/(.|\s)*\S(.|\s)*/)])],
       authorship: ['', Validators.compose([Validators.required, Validators.minLength(3)])],
-      model: ['model1']
+      model: ['model1'],
+      favorite: [false]
     })
   }
 
