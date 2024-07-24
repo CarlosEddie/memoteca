@@ -16,6 +16,9 @@ export class ThoughtComponent implements OnInit {
     model: 'model3',
     favorite: false
   }
+
+  @Input() favoritesList: Thought[] = [];
+
   constructor(private service: ThoughtService) { }
 
   ngOnInit(): void {
@@ -37,7 +40,9 @@ export class ThoughtComponent implements OnInit {
   }
 
   updateFavorite() {
-    this.service.changeFavorite(this.thought).subscribe()
+    this.service.changeFavorite(this.thought).subscribe(() => {
+      this.favoritesList.splice(this.favoritesList.indexOf(this.thought), 1)
+    })
   }
 
 }

@@ -5,15 +5,23 @@
       <img src="/assets/images/magnifying-glass.png" alt="blue magnifying-glass">
     </div>
     <h2 class="ff-inter">
-      My Mural
+      {{ title }}
     </h2>
-    <button routerLink="/create" class="button">
-      Add thought
-    </button>
+    <div class="buttons">
+      <button class="button" (click)="reloadComponent()">
+        My Mural
+      </button>
+      <button class="button" (click)="listFavorites()">
+        My Favorites
+      </button>
+      <button routerLink="/create" class="button">
+        New Thought
+      </button>
+    </div>
   </header>
   <div class="mural" *ngIf="listThought.length > 0, else noThoughts">
     <div *ngFor="let thought of listThought">
-      <app-thought [thought]="thought"></app-thought>
+      <app-thought [thought]="thought" [favoritesList]="favoritesList"></app-thought>
     </div>
   </div>
 </section>
