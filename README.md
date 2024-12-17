@@ -1,10 +1,26 @@
 # Memoteca
 
+## About the project
+
+The project presents a platform where users can save thoughts. They can also edit or delete them, as well as favorite the thoughts they find most interesting. Still within its functions, the platform allows users to filter which thoughts will appear, either through the favorites section or through the search bar.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.0.
+
+## Technologies
+
+![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+
+## Running the backend
+
+Go to the backend folder and run `npm start`. The resources will be on `http://localhost:3000/thoughts`.
 
 ## Code scaffolding
 
