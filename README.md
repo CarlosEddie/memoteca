@@ -14,6 +14,19 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 
+## Home Page
+![Home!](https://github.com/CarlosEddie/memoteca/blob/1edf6fb4ee0b4f6e6b328fc66371af38156d3b96/src/assets/images/readmeImages/home1.png)
+![Home2!](https://github.com/CarlosEddie/memoteca/blob/1edf6fb4ee0b4f6e6b328fc66371af38156d3b96/src/assets/images/readmeImages/home2.png)
+
+## Favorites Page
+![Favorites!](https://github.com/CarlosEddie/memoteca/blob/1edf6fb4ee0b4f6e6b328fc66371af38156d3b96/src/assets/images/readmeImages/favorites.png)
+
+## New Thought Page
+![NewThought!](https://github.com/CarlosEddie/memoteca/blob/1edf6fb4ee0b4f6e6b328fc66371af38156d3b96/src/assets/images/readmeImages/newThought2.png)
+
+## Search Page
+![Search!](https://github.com/CarlosEddie/memoteca/blob/1edf6fb4ee0b4f6e6b328fc66371af38156d3b96/src/assets/images/readmeImages/search.png)
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
