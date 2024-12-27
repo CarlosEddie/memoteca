@@ -15,17 +15,17 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 
 ## Home Page
-![Home!](https://github.com/CarlosEddie/memoteca/blob/1edf6fb4ee0b4f6e6b328fc66371af38156d3b96/src/assets/images/readmeImages/home1.png)
-![Home2!](https://github.com/CarlosEddie/memoteca/blob/1edf6fb4ee0b4f6e6b328fc66371af38156d3b96/src/assets/images/readmeImages/home2.png)
+![Home Page!](https://github.com/CarlosEddie/memoteca/blob/1edf6fb4ee0b4f6e6b328fc66371af38156d3b96/src/assets/images/readmeImages/home1.png)
+![Home Page Image 2!](https://github.com/CarlosEddie/memoteca/blob/1edf6fb4ee0b4f6e6b328fc66371af38156d3b96/src/assets/images/readmeImages/home2.png)
 
 ## Favorites Page
-![Favorites!](https://github.com/CarlosEddie/memoteca/blob/1edf6fb4ee0b4f6e6b328fc66371af38156d3b96/src/assets/images/readmeImages/favorites.png)
+![Favorites Page!](https://github.com/CarlosEddie/memoteca/blob/1edf6fb4ee0b4f6e6b328fc66371af38156d3b96/src/assets/images/readmeImages/favorites.png)
 
 ## New Thought Page
-![NewThought!](https://github.com/CarlosEddie/memoteca/blob/1edf6fb4ee0b4f6e6b328fc66371af38156d3b96/src/assets/images/readmeImages/newThought.png)
+![New Thought Page!](https://github.com/CarlosEddie/memoteca/blob/07b7e44e8de196298c017e43a4324d0ef2f362ae/src/assets/images/readmeImages/newThought.png)
 
 ## Search Page
-![Search!](https://github.com/CarlosEddie/memoteca/blob/1edf6fb4ee0b4f6e6b328fc66371af38156d3b96/src/assets/images/readmeImages/search.png)
+![Search Results Page!](https://github.com/CarlosEddie/memoteca/blob/1edf6fb4ee0b4f6e6b328fc66371af38156d3b96/src/assets/images/readmeImages/search.png)
 
 ## Development server
 
