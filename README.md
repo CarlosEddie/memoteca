@@ -22,7 +22,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ![Favorites!](https://github.com/CarlosEddie/memoteca/blob/1edf6fb4ee0b4f6e6b328fc66371af38156d3b96/src/assets/images/readmeImages/favorites.png)
 
 ## New Thought Page
-![NewThought!](https://github.com/CarlosEddie/memoteca/blob/1edf6fb4ee0b4f6e6b328fc66371af38156d3b96/src/assets/images/readmeImages/newThought2.png)
+![NewThought!](https://github.com/CarlosEddie/memoteca/blob/1edf6fb4ee0b4f6e6b328fc66371af38156d3b96/src/assets/images/readmeImages/newThought.png)
 
 ## Search Page
 ![Search!](https://github.com/CarlosEddie/memoteca/blob/1edf6fb4ee0b4f6e6b328fc66371af38156d3b96/src/assets/images/readmeImages/search.png)
