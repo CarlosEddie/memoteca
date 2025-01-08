@@ -2,7 +2,7 @@
 
 ## About the project
 
-The project presents a platform where users can save thoughts. They can also edit or delete them, as well as favorite the thoughts they find most interesting. Still within its functions, the platform allows users to filter which thoughts will appear, either through the favorites section or through the search bar.
+This project presents a platform where users can save thoughts. They can also edit or delete them, as well as favorite the thoughts they find most interesting. Still within its functions, the platform allows users to filter which thoughts will appear, either through the favorites section or through the search bar.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.0.
 
