@@ -1,60 +1,53 @@
 {
   "thoughts": [
     {
-      "id": 1,
-      "content": "test",
-      "authorship": "aaa",
-      "model": "model3",
-      "favorite": false
+      "content": "Today was a good day.",
+      "authorship": "I finally bought my new laptop.",
+      "model": "model1",
+      "favorite": true,
+      "id": 1
     },
     {
-      "content": "a",
-      "authorship": "aaaa",
+      "content": "Hello there",
+      "authorship": "I hope you have a good day",
       "model": "model2",
       "favorite": false,
       "id": 2
     },
     {
-      "content": "a",
-      "authorship": "aaa",
-      "model": "model1",
+      "content": "Hello",
+      "authorship": "That's it",
+      "model": "model3",
       "favorite": false,
       "id": 3
     },
     {
-      "content": "a",
-      "authorship": "aaa",
-      "model": "model1",
+      "content": "Angular",
+      "authorship": "It's good",
+      "model": "model2",
       "favorite": false,
       "id": 4
     },
     {
-      "content": "aaaaa",
-      "authorship": "aaaaa",
+      "content": "React",
+      "authorship": "I like it",
       "model": "model3",
+      "favorite": true,
+      "id": 5
+    },
+    {
+      "content": "Vue.js",
+      "authorship": "It's new to me but I think I like it",
+      "model": "model1",
       "favorite": false,
+      "id": 6
+    },
+    {
+      "content": "Secret",
+      "authorship": "If you are seeing this, you must have clicked the button",
+      "model": "model3",
+      "favorite": true,
       "id": 7
-    },
-    {
-      "content": "aaaa",
-      "authorship": "aaaa",
-      "model": "model2",
-      "favorite": false,
-      "id": 8
-    },
-    {
-      "content": "a",
-      "authorship": "aaaa",
-      "model": "model1",
-      "favorite": false,
-      "id": 9
-    },
-    {
-      "id": 10,
-      "content": "test",
-      "authorship": "Carlos Eddie",
-      "model": "model1",
-      "favorite": true
     }
   ]
 }
